@@ -1,0 +1,26 @@
+{
+  "name": "tp3_dai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiroPerazzo/tp3_DAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CiroPerazzo/tp3_DAI/issues"
+  },
+  "homepage": "https://github.com/CiroPerazzo/tp3_DAI#readme",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dayjs": "^1.11.20"
+  }
+}
