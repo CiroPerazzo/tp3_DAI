@@ -3,18 +3,14 @@ import dayjs from "dayjs";
 const ahora = dayjs();
 function dias()
 {
-    const fecha = {
+    const pajaro = {
         fecha : ahora.format("DD/MM/YYYY"),
-        hora : ahora.format("HH:mm")
+        horaCompleta : ahora.format("HH:mm"),
+        segundos :ahora.second()
     }
-    return (fecha)
+    return (pajaro)
  
 }
 
 
 export default dias
-
-
-
-
-/*, */
