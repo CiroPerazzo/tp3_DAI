@@ -5,8 +5,7 @@ function dias()
 {
     const pajaro = {
         fecha : ahora.format("DD/MM/YYYY"),
-        horaCompleta : ahora.format("HH:mm"),
-        segundos :ahora.second()
+        horaCompleta : ahora.format("HH:mm:ss")
     }
     return (pajaro)
  

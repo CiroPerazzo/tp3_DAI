@@ -13,7 +13,7 @@ import dias from "./src/modulos/Ejercicio3.js"
 const datos = dias()
 console.log(datos.fecha)
 console.log(datos.horaCompleta)
-console.log(datos.segundos)
+
 
 
 
